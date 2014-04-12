@@ -166,7 +166,7 @@ int markdownConsume(char* text, int token, yyscan_t scanner);
   CGFloat lineSpacing = 0.45;
 
 #ifdef TARGET_OS_IPHONE
-  NSTextAlignment alignment = NSTextAlignmentLeft;
+  NSTextAlignment alignment = kCTTextAlignmentLeft;
 
   NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
   style.paragraphSpacing = paragraphSpacing;
